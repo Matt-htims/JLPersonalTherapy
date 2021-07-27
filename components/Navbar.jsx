@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Router from 'next/router';
 import Link from 'next/link';
 
+import { FiMenu, FiX } from 'react-icons/fi';
+
 function Navbar({ brand, items }) {
 	const [activeIndex, setActiveIndex] = useState(-1);
 	const [active, setActive] = useState(false);
@@ -30,45 +32,45 @@ function Navbar({ brand, items }) {
 	}
 
 	return (
-		<div className="sticky top-0">
-			<nav className="navbar flex justify-between py-8 px-8 text-textGreen-dark bg-back">
-				<Link href="/">
-					<a>
-						<div className="brand text-2xl hover:scale-110 transition-all">
-							{brand}
-						</div>
-					</a>
-				</Link>
-				<div
-					onClick={handleTray}
-					className="hamburger lg:hidden cursor-pointer"
-				>
-					<img
-						src={active ? 'menuOpen.svg' : 'menuClosed.svg'}
-						alt="navigation menu"
-					/>
-				</div>
-				<div className="items hidden lg:block">
-					{items.map((item, index) => (
-						<Link
-							href={item.url}
-							active={activeIndex === index ? 'active' : undefined}
-							key={item.id}
-							className="items"
-						>
-							<a className="text-base px-5 py-3 rounded-lg hover:bg-back-dark">
-								{item.title}
-							</a>
-						</Link>
-					))}
+		<div className="sticky top-0 w-full z-10">
+			<nav className="navbar md:py-5 py-3 text-textGreen-dark bg-back">
+				<div className="flex justify-between items-center max-w-7xl m-auto md:px-8 px-5">
+					<Link href="/">
+						<a>
+							<div className="brand md:text-2xl text-lg hover:scale-105 transition-all">
+								{brand}
+							</div>
+						</a>
+					</Link>
+					<div
+						onClick={handleTray}
+						className="hamburger lg:hidden cursor-pointer"
+					>
+						{!active ? <FiMenu size="1.5em" /> : <FiX size="1.5em" />}
+					</div>
+					<div className="items hidden lg:block space-x-10">
+						{items.map((item, index) => (
+							<Link
+								href={item.url}
+								active={activeIndex === index ? 'active' : undefined}
+								key={item.id}
+								className="items"
+							>
+								<a className="text-base py-3 rounded-lg hover:bg-back-dark font-light">
+									{item.title}
+								</a>
+							</Link>
+						))}
+					</div>
 				</div>
 			</nav>
 			<div
-				className={`w-96 h-60 absolute left-1/2 transition-all lg:hidden ${
-					!active ? 'opacity-0 -inset-80' : 'opacity-100'
+				onClick={closeTray}
+				className={`w-screen h-screen bg-black bg-opacity-50 flex justify-center absolute lg:hidden ${
+					!active ? 'hidden' : ''
 				}`}
 			>
-				<div className="relative -left-1/2 flex flex-col items-center rounded-lg bg-back border ">
+				<div className="relative w-96 top-4 h-60 flex flex-col items-center rounded-lg bg-back mx-4">
 					{items.map((item, index) => (
 						<Link
 							href={item.url}

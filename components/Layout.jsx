@@ -4,13 +4,15 @@ import React from 'react';
 import navItems from '../helperData/navItems';
 
 //  Components
-import Navbar from '../components/nav/Navbar';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
 	return (
 		<div className="font-nunito text-textGreen bg-back">
-			<Navbar brand="Counselling" items={navItems} />
+			<Navbar brand="J&L Personal Therapy" items={navItems} />
 			<main>{children}</main>
+			<Footer />
 		</div>
 	);
 };

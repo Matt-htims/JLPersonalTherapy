@@ -18,10 +18,18 @@ module.exports = {
 				DEFAULT: '#FFFDFC',
 				dark: '#FBF7F6',
 			},
+			black: '#000',
 		},
 		extend: {
 			fontFamily: {
 				nunito: ['Nunito', 'sans-serif'],
+			},
+			spacing: {
+				100: '28rem',
+				128: '32rem',
+			},
+			strokeWidth: {
+				0.5: '0.5',
 			},
 		},
 	},
