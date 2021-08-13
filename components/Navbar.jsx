@@ -32,7 +32,7 @@ function Navbar({ brand, items }) {
 	}
 
 	return (
-		<div className="sticky top-0 w-full z-10">
+		<div className="sticky top-0 w-full z-50">
 			<nav className="navbar md:py-5 py-3 text-textGreen-dark bg-back">
 				<div className="flex justify-between items-center max-w-7xl m-auto md:px-8 px-5">
 					<Link href="/">

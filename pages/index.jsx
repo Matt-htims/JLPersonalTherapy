@@ -20,7 +20,7 @@ export default function Home() {
 						</h1>
 						<p className="xl:text-2xl md:text-xl text-lg font-light">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Suspendisse commodo interdum ornare.
+							Suspendisse commodo interdum ornare. £40 sessions
 						</p>
 						<div className="flex justify-center">
 							<Button text="Contact Us" link="/contact" />

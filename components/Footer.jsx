@@ -5,7 +5,7 @@ import { FiPhone, FiMail, FiFacebook } from 'react-icons/fi';
 
 function Footer() {
 	return (
-		<div className="h-60 bg-black/40 flex flex-col justify-center items-center space-y-6">
+		<div className="h-60 bg-black/30 flex flex-col justify-center items-center space-y-6">
 			<div className="flex space-x-4">
 				<Link href="#">
 					<a>
