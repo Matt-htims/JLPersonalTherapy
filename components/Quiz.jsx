@@ -35,12 +35,13 @@ function Quiz() {
 				</h2>
 				<div className="py-8 px-4 md:h-56">
 					<p className="text-center md:text-xl text-sm">
-						You said yes to <span className="font-bold">{score}</span> questions
+						You said yes to <span className="font-bold">{score}</span>{' '}
+						{score == 1 ? 'question' : 'questions'}
 					</p>
-					<p className="pt-8 text-center md:text-2xl text-lg">
+					<div className="pt-8 text-center md:text-2xl text-lg">
 						{score > 0 ? (
 							<>
-								<p>You would likely benefit from person centred therapy</p>
+								<p>You would likely benefit from person centred therapy.</p>
 								<p className="md:text-base text-sm pt-6">
 									Therapy takes time and commitment. It is no quick fix
 									solution, but just like many things the slower option has
@@ -55,7 +56,7 @@ function Quiz() {
 								</p>
 							</>
 						)}
-					</p>
+					</div>
 				</div>
 				<div className="flex justify-around pb-2">
 					<button

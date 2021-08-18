@@ -10,7 +10,7 @@ function ContactSection({ name, value, link }) {
 					<p className="font-light md:text-lg text-base tracking-wide text-textGreen-light mb-1">
 						{name}
 					</p>
-					<p className="md:text-3xl text-xl md:tracking-widest tracking-wide font-light hover:scale-105 transition-all">
+					<p className="md:text-3xl text-lg md:tracking-widest tracking-wide font-light hover:scale-105 transition-all">
 						{value}
 					</p>
 				</a>

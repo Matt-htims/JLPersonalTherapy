@@ -8,7 +8,7 @@ import { FiPhone, FiMail, FiFacebook } from 'react-icons/fi';
 
 function ContactCard() {
 	return (
-		<div className="bg-back-dark rounded-2xl shadow-md md:w-140 w-11/12 m-auto md:p-10 p-4 space-y-16">
+		<div className="bg-back-dark rounded-2xl shadow-md md:w-140 w-11/12 m-auto md:p-10 md:p-4 p-3 space-y-16">
 			<div className="md:flex md:space-x-16 md:space-y-0 space-y-4">
 				<FiPhone className="stroke-1 flex-none md:h-16 h-10" size="3rem" />
 				<div className="space-y-6">
