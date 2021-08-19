@@ -5,7 +5,7 @@ import Link from 'next/link';
 //	Components
 import Button from '../components/Button';
 import IconLabel from '../components/IconLabel';
-import AboutPerson from '../components/AboutPerson';
+import AboutPerson from '../components/About/AboutPerson';
 import Faqs from '../components/Faqs/Faqs';
 
 export default function Home() {
@@ -47,9 +47,9 @@ export default function Home() {
 				<div className="icons md:flex grid grid-cols-3 gap-3 justify-items-center justify-around items-start md:mt-20 mt-10">
 					<IconLabel image="services/Anxiety.svg" text="Anxiety" />
 					<IconLabel image="services/Depression.svg" text="Depression" />
-					<IconLabel image="services/Relationships.svg" text="Abuse" />
+					<IconLabel image="services/Abuse.svg" text="Abuse" />
 					<IconLabel image="services/Addiction.svg" text="Addiction" />
-					<IconLabel image="services/Domestic.svg" text="Bereavement" />
+					<IconLabel image="services/Bereavement.svg" text="Bereavement" />
 					<IconLabel text="And more" link="/services" />
 				</div>
 			</div>
