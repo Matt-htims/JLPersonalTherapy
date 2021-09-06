@@ -20,14 +20,23 @@ function Faqs() {
 				<IndivQ question="How long are the sessions?" answer="Bout 1 hour" />
 				<IndivQ
 					question="Are counselling sessions confidential?"
-					answer="Yep"
+					answer="Answer goes here..."
 				/>
-				<IndivQ question="How many sessions will I need?" answer="Maybe 12" />
-				<IndivQ question="What happens in my first session?" answer="We talk" />
-				<IndivQ question="How much does a session Cost?" answer="40 gbp" />
+				<IndivQ
+					question="How many sessions will I need?"
+					answer="Answer goes here..."
+				/>
+				<IndivQ
+					question="What happens in my first session?"
+					answer="Answer goes here..."
+				/>
+				<IndivQ
+					question="How much does a session Cost?"
+					answer="Answer goes here..."
+				/>
 				<IndivQ
 					question="What happens if I cancel a session with you?"
-					answer="If before 48 hours then no worries g but otherwise yaint getting this green back"
+					answer="Answer goes here..."
 				/>
 			</div>
 		</div>
