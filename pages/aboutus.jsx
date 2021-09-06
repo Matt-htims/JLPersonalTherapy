@@ -9,7 +9,7 @@ function aboutus() {
 			<h1 className="md:text-5xl text-3xl text-center">About us</h1>
 			<div className="md:mt-20 mt-10 md:mb-32 mb-18  space-y-20">
 				<AboutPersonLong
-					image="help.png"
+					image="Help.png"
 					name="Jennifer Schaub"
 					title="Qualified Counsellor and Psychotherapist"
 					b1="In the years before my training I have adopted many caregiving roles, including carer and learning support assistant. To me, community is everything and I do as much as possible to support my own (between being a mum and work). I currently volunteer with We Are With You (formally known as Addaction), True Butterflies and West Country Association for Counselling."
@@ -66,7 +66,7 @@ function aboutus() {
 					f2="If you feel you would like to work with me please contact me at the email and telephone number provided in the ‘contact us button’ - this can also be found with the green icon on the top right hand corner of each page."
 				/>
 				<AboutPersonLong
-					image="help.png"
+					image="Help.png"
 					name="Lorna Sandry"
 					title="Qualified Counsellor and Psychotherapist"
 					b1="Being at an age where I have the time and energy to give something back, I feel privileged to work with individuals to help them make sense of their world. I pride myself on my ability to listen, and truly enjoy my role working with people on their journeys of self discovery."
