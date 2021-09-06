@@ -17,7 +17,10 @@ function Faqs() {
 				</a>
 			</Link>
 			<div className="space-y-6">
-				<IndivQ question="How long are the sessions?" answer="Bout 1 hour" />
+				<IndivQ
+					question="How long are the sessions?"
+					answer="Answer goes here..."
+				/>
 				<IndivQ
 					question="Are counselling sessions confidential?"
 					answer="Answer goes here..."
