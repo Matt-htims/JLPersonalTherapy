@@ -11,7 +11,7 @@ function Faqs() {
 		<div className="lg:flex justify-around items-center">
 			<Link href="/faqs">
 				<a>
-					<h2 className="text-4xl hover:scale-105 transition-all lg:text-left text-center lg:mb-0 mb-8">
+					<h2 className="md:text-4xl text-3xl hover:scale-105 transition-all lg:text-left text-center lg:mb-0 mb-8">
 						FAQs
 					</h2>
 				</a>
