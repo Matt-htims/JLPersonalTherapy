@@ -1,7 +1,3 @@
-import Head from 'next/head';
-
-import Link from 'next/link';
-
 //	Components
 import Button from '../components/Button';
 import IconLabel from '../components/IconLabel';
@@ -128,7 +124,7 @@ export default function Home() {
 					/>
 				</div>
 				<div className="flex justify-center">
-					<Button text="More About us" link="/aboutus" />
+					<Button text="More About us" link="/about" />
 				</div>
 			</div>
 			{/* FAQs */}
