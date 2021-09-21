@@ -11,7 +11,7 @@ function faqs() {
 				<title>FAQs</title>
 			</Head>
 			<div className="min-h-screen my-16 max-w-7xl m-auto md:px-8 px-5 space-y-16">
-				<h1 className="md:text-5xl text-3xl text-center">FAQs</h1>
+				<h2 className="md:text-5xl text-3xl text-center">FAQs</h2>
 				<div>
 					<QnA q="How long are the sessions?" a="50 minutes" />
 					<QnA q="Are counselling sessions confidential?" />

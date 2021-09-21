@@ -11,9 +11,9 @@ export default function Home() {
 			<div className="top bg-gradient-to-b from-back to-black/20">
 				<div className="flex lg:flex-row flex-col-reverse max-w-7xl m-auto md:px-8 px-5 pt-5 relative lg:h-100">
 					<div className="flex flex-col justify-around lg:w-5/12 md:w-9/12 w-12/12 lg:m-0 m-auto lg:text-left h-64 text-center lg:pr-8 lg:py-6 pt-5 h-full lg:space-y-0 md:space-y-10 space-y-8">
-						<h1 className="xl:text-6xl md:text-5xl text-3xl font-semibold text-textGreen-dark">
+						<p className="xl:text-6xl md:text-5xl text-3xl font-semibold text-textGreen-dark">
 							Help us help you
-						</h1>
+						</p>
 						<p className="xl:text-2xl md:text-xl text-base  font-light">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							Suspendisse commodo interdum ornare. £40 sessions

@@ -11,7 +11,7 @@ function aboutus() {
 				<title>About us</title>
 			</Head>
 			<div className="min-h-screen my-16 max-w-7xl m-auto md:px-8 px-3">
-				<h1 className="md:text-5xl text-3xl text-center">About us</h1>
+				<h2 className="md:text-5xl text-3xl text-center">About us</h2>
 				<div className="md:mt-16 mt-10 md:mb-32 mb-18 space-y-16">
 					<AboutPersonLong
 						image="Help.png"

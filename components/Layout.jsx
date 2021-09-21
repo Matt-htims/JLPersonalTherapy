@@ -11,7 +11,15 @@ import ContactPill from './ContactPill';
 const Layout = ({ children }) => {
 	return (
 		<div className="font-nunito text-textGreen bg-back">
-			<Navbar brand="J&L Personal Therapy" items={navItems} />
+			<Navbar
+				brand={
+					<h1>
+						J&L Personal Therapy{' '}
+						<span className="hidden">Counselling Cornwall, Newquay</span>
+					</h1>
+				}
+				items={navItems}
+			/>
 			<ContactPill />
 			<main>{children}</main>
 			<Footer />

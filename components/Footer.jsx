@@ -36,7 +36,7 @@ function Footer() {
 				<Link href="/services">
 					<a className="text-back hover:text-textGreen">Services</a>
 				</Link>
-				<Link href="/aboutus">
+				<Link href="/about">
 					<a className="text-back hover:text-textGreen">About</a>
 				</Link>
 			</div>

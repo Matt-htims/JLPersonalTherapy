@@ -24,7 +24,7 @@ function services() {
 				<title>Our services</title>
 			</Head>
 			<div className="min-h-screen my-16 max-w-7xl m-auto md:px-8 px-5 leading-7">
-				<h1 className="md:text-5xl text-3xl text-center">What to Expect</h1>
+				<h2 className="md:text-5xl text-3xl text-center">What to Expect</h2>
 				<div className="md:pt-16 pt-10 pb-14">
 					<h2 className="md:text-3xl text-2xl pb-8 font-semibold">
 						Person Centred Therapy
