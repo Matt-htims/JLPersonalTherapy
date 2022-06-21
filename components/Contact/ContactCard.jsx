@@ -42,7 +42,7 @@ function ContactCard() {
 			<div className="md:flex md:space-x-16 items-end flex-none md:space-y-0 space-y-4">
 				<FiFacebook className="stroke-1 flex-none md:h-16 h-10" size="3rem" />
 				<p className="md:text-3xl text-xl tracking-widest font-light hover:scale-105 transition-all">
-					J&L Counselling
+					J&amp;L Counselling
 				</p>
 			</div>
 		</div>

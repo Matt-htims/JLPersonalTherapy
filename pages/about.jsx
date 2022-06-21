@@ -75,29 +75,52 @@ function aboutus() {
 						image="Help.png"
 						name="Lorna Sandry"
 						title="Qualified Counsellor and Psychotherapist"
-						b1="Being at an age where I have the time and energy to give something back, I feel privileged to work with individuals to help them make sense of their world. I pride myself on my ability to listen, and truly enjoy my role working with people on their journeys of self discovery."
-						b2="The sentiment  ‘emotional well-being is just as important as breathing’ resonates with how I practice during sessions. Understanding oneself is helpful in coping with life’s daily disappointments and struggles along with the highs. My role is helping you to re-discover your true self. Psychologist Abraham Maslow once said, ‘In any given moment, we have two options: to step forward into growth or step back into safety’. I want to help you to empower yourself and become who you truly are. "
+						b1="I feel privileged to work with individuals helping them make sense of their world. I pride myself on my ability to listen, and truly enjoy my role working with people on their journey of self-discovery. If you are experiencing distressing or unpleasant thoughts I am here to help."
+						b2={
+							<>
+								The sentiment ‘emotional well-being is just as important as
+								breathing’ resonates with how I practice during sessions.
+								Understanding oneself is helpful in coping with life’s daily
+								disappointments and struggles, along with the highs. My role is
+								helping you to re-discover your true self. Psychologist Abraham
+								Maslow once said ‘In any given moment, we have two options: to
+								step forward into growth or step back into safety’. I want to
+								help you to empower yourself and become who you truly are.{' '}
+								<br />
+								<br />
+								Being Cornish, I have witnessed first hand the negative impact
+								of isolation and the need for diversity which has adversely
+								affected various sections of traditional Cornish rural life,
+								particularly the farming community. I am aware that my skills
+								are relevant in all areas of Society.
+							</>
+						}
 						training={
 							<>
 								I have trained in{' '}
 								<strong>
-									domestic abuse and sexual violence (L1 & 2) and suicide
-									awareness.
+									domestic abuse and sexual violence (L1 &amp; 2) and also
+									suicide awareness.
 								</strong>{' '}
 								Most of my experience is in{' '}
-								<strong>bereavement/ grief/ loss and addiction</strong>, as I
-								currently work with Cruse Bereavement and We are with You on a
-								voluntary basis. I am also comfortable working with the
-								following;
+								<strong>bereavement/grief/loss and addiction</strong> related
+								issues, as I also work with Cruse Bereavement and We are With
+								You on a voluntary basis. These areas of work include:
 							</>
 						}
 						addTraining={[
 							'Common life issues',
-							'Depression',
+							'Self Harm',
 							'Anxiety',
-							'Stress',
+							'Domestic Violence',
 							'Low self worth',
-							'Emotional abuse',
+							'Child Abuse',
+							'Depression',
+							'Grief',
+							'Stress',
+							'Loss, divorce, job loss etc',
+							'Emotional Abuse',
+							'Family Issues',
 						]}
 						icons={[
 							{ name: 'services/Abuse.svg', label: 'Abuse' },
@@ -107,8 +130,8 @@ function aboutus() {
 							},
 							{ name: 'services/Bereavement.svg', label: 'Bereavement' },
 						]}
-						f1="I have completed courses in: Online and Telephone Counselling Course, Suicide and First Aid Digital Training, and City & Guilds pass Suicide First Aid (L4 Understanding Suicide Interventions)."
-						f2="I am happy to say that my current clients have found me very easy to talk with. If you feel you would like to work with me please contact me at the email and telephone number provided in the ‘contact us button’ - this can also be found with the green icon on the top right hand corner of each page. "
+						f1="I started my counselling journey over 10 years ago - as a client, to help with a challenging family event. I know how helpful the process can be, I also appreciate it can be a difficult decision to talk to a counsellor. A recent client felt very anxious about talking to me, and has subsequently expressed how comfortable and at ease she felt during our sessions."
+						f2="If you feel you would like to work with me please make contact by email, text or telephone, details are can be found by pressing ‘contact us’ button - which is the green icon on the top right hand corner of each page."
 					/>
 				</div>
 			</div>
