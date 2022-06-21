@@ -47,7 +47,7 @@ const IndivEmergencyContacts = ({
 				)}
 				{numbertwo ? (
 					<div className="flex flex-row space-x-1 hover:scale-105 transition-all">
-						<p>or</p>
+						{name === 'Mind' ? <p>Text:</p> : <p>or</p>}
 						<Link href={`tel:${numbertwo}`}>
 							<a>{numbertwo}</a>
 						</Link>

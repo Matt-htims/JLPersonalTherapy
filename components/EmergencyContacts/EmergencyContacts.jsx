@@ -86,7 +86,7 @@ const EmergencyContacts = () => {
 								/>
 								<IndivEmergencyContacts
 									name="Befrienders Worldwide"
-									description="Wmotional support to prevent suicide"
+									description="Emotional support to prevent suicide"
 									website="www.befrienders.org"
 								/>
 								<IndivEmergencyContacts
