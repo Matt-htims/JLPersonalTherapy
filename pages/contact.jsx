@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 //	Components
 import ContactCard from '../components/Contact/ContactCard';
+import EmergencyContacts from '../components/EmergencyContacts/EmergencyContacts';
 
 function contact() {
 	return (
@@ -19,6 +20,7 @@ function contact() {
 					</p>
 				</div>
 				<ContactCard />
+				<EmergencyContacts />
 			</div>
 		</>
 	);
