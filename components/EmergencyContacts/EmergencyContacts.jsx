@@ -36,7 +36,7 @@ const EmergencyContacts = () => {
 						>
 							<div className="space-y-5 py-4">
 								<IndivEmergencyContacts
-									name="Values Lives"
+									name="Valued Lives"
 									number="0800 2606759"
 									description="Booking line for 24hr mental health crisis support"
 								/>
