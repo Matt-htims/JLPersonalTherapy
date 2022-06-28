@@ -28,9 +28,9 @@ const EmergencyContacts = () => {
 				<AnimatePresence>
 					{emergencyContactsOpen ? (
 						<motion.div
-							initial={{ y: -800 }}
+							initial={{ y: -1100 }}
 							animate={{ y: 0 }}
-							exit={{ y: -800 }}
+							exit={{ y: -1100 }}
 							transition={{ ease: 'easeOut' }}
 							className="p-3 space-y-5 shadow-md rounded-xl"
 						>

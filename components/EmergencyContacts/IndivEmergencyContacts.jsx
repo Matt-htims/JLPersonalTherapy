@@ -18,7 +18,7 @@ const IndivEmergencyContacts = ({
 			<div className="md:flex flex-row-reverse justify-between">
 				<div className="number md:flex flex-reverse flex-col items-end text-lg flex-none">
 					{number ? (
-						<div className="hover:scale-105 transition-all">
+						<div className="hover:scale-105 transition-all max-w-max">
 							<Link href={`tel:${number}`}>
 								<a>{number}</a>
 							</Link>
@@ -27,7 +27,7 @@ const IndivEmergencyContacts = ({
 						''
 					)}
 					{numbertwo ? (
-						<div className="flex flex-row space-x-1 hover:scale-105 transition-all">
+						<div className="flex flex-row space-x-1 hover:scale-105 transition-all max-w-max">
 							{name === 'Mind' ? <p>Text:</p> : <p>or</p>}
 							<Link href={`tel:${numbertwo}`}>
 								<a>{numbertwo}</a>
