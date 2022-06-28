@@ -19,7 +19,7 @@ export default function Home() {
 							Suspendisse commodo interdum ornare. £40 sessions
 						</p>
 						<div className="flex justify-center pb-6">
-							<Button text="Contact Us" link="/contact" />
+							<Button text="Contact Us" link="/contact" cta={true} />
 						</div>
 					</div>
 					<img

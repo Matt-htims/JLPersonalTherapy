@@ -71,9 +71,15 @@ function Navbar({ brand, items }) {
 								key={item.id}
 								className="items"
 							>
-								<a className="text-base py-3 rounded-lg hover:bg-back-dark font-light">
-									{item.title}
-								</a>
+								{!onHome && item.id === 'laskfj23f' ? (
+									<a className="text-base p-3 rounded-lg bg-ctaGreen hover:bg-ctaGreen-light hover:text-textGreen text-back font-light">
+										{item.title}
+									</a>
+								) : (
+									<a className="text-base p-3 rounded-lg hover:bg-back-dark font-light">
+										{item.title}
+									</a>
+								)}
 							</Link>
 						))}
 					</div>
