@@ -34,7 +34,7 @@ const EmergencyContacts = () => {
 							transition={{ ease: 'easeOut' }}
 							className="p-3 space-y-5 shadow-md rounded-xl"
 						>
-							<div className="space-y-5 py-4">
+							<div className="space-y-6 py-4">
 								<IndivEmergencyContacts
 									name="Valued Lives"
 									number="0800 2606759"
