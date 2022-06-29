@@ -122,6 +122,7 @@ function faqs() {
 						a="Although endings are an important part of the process you can finish counselling any time you like. We do require at least 24 hours notice to make refunds. 
 					If you feel you would like to end counselling all you have to do is let us know either in a session, by phone, internet platform or email.
 					"
+						last={true}
 					/>
 				</div>
 			</div>

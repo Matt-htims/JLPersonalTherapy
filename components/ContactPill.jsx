@@ -12,7 +12,7 @@ function ContactPill() {
 		<div
 			onMouseEnter={() => setHover(true)}
 			onMouseLeave={() => setHover(false)}
-			className="fixed right-8 top-40 z-30 md:flex cursor-pointer hidden overflow-hidden rounded-2xl"
+			className="fixed right-5 top-40 z-30 md:flex cursor-pointer hidden overflow-hidden rounded-2xl"
 		>
 			<AnimatePresence>
 				{hover ? (
