@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 //	Components
 import QnA from '../components/Faqs/QnA';
+import Button from '../components/Button';
 
 function faqs() {
 	return (
@@ -10,11 +11,11 @@ function faqs() {
 			<Head>
 				<title>FAQs</title>
 			</Head>
-			<div className="min-h-screen my-16 max-w-7xl m-auto md:px-8 px-5 space-y-16">
+			<div className="min-h-screen py-16 max-w-7xl m-auto md:px-8 px-5 md:space-y-24 space-y-16">
 				<h2 className="md:text-5xl text-3xl text-center">
 					Frequently asked questions
 				</h2>
-				<div>
+				<div className="max-w-4xl m-auto">
 					<QnA
 						q="How long is each session and how many will I need ?"
 						a="Sessions are 50 mins and we aim for them to be at the same time each week. 
@@ -124,6 +125,13 @@ function faqs() {
 					"
 						last={true}
 					/>
+				</div>
+				<div className="bg-back-dark text-center py-10 rounded-2xl shadow-md max-w-8xl m-auto">
+					<h3 className="text-2xl font-semibold mb-2">Still have questions?</h3>
+					<p className="mb-8">
+						Don't hesitate to contact us with any other queries
+					</p>
+					<Button text="Contact us" link="/contact" />
 				</div>
 			</div>
 		</>

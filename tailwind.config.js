@@ -19,7 +19,10 @@ module.exports = {
 				dark: '#FBF7F6',
 			},
 			black: '#000',
-			gray: '#C2C2C2',
+			gray: {
+				DEFAULT: '#C2C2C2',
+				light: '#697178',
+			},
 		},
 		extend: {
 			fontFamily: {
