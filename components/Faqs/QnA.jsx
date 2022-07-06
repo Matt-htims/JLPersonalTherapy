@@ -35,11 +35,11 @@ const QnA = ({ q, a, last }) => {
 				<AnimatePresence>
 					{open ? (
 						<motion.div
-							initial={{ y: -50 }}
+							initial={{ y: -150 }}
 							animate={{ y: 0 }}
-							exit={{ y: -50 }}
-							transition={{ ease: 'easeOut' }}
-							className="pb-6 text-base text-justify text-gray-light md:pr-20 pr-10 font-light border-b border-gray"
+							exit={{ y: -150 }}
+							transition={{ ease: 'easeInOut' }}
+							className="pt-3 text-base text-justify text-gray-light md:pr-20 pr-10 font-light"
 						>
 							{a}
 						</motion.div>
