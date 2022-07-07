@@ -15,8 +15,10 @@ export default function Home() {
 							Help us help you
 						</p>
 						<p className="xl:text-2xl md:text-xl text-base  font-light">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Suspendisse commodo interdum ornare. £40 sessions
+							Thinking of embarking on a journey of self discovery, or looking
+							for some support ? Wanting a safe space to explore aspects of
+							yourself ? We can offer you our services from qualified
+							counsellors in the comfort of your home.
 						</p>
 						<div className="flex justify-center pb-6">
 							<Button text="Contact Us" link="/contact" cta={true} />
@@ -56,38 +58,42 @@ export default function Home() {
 						What is Counselling?
 					</h2>
 					<div className="flex lg:flex-row flex-col-reverse">
-						<div className="text flex flex-col justify-around lg:mr-14 lg:space-y-0 space-y-14">
+						<div className="text flex flex-col justify-around lg:mr-14 space-y-8 text-justify">
 							<div className="">
-								<h4 className="md:text-2xl text-xl lg:mb-6 mb-4">
-									Hkjfdsa sdfijksa
-								</h4>
+								<h4 className="md:text-2xl text-xl lg:mb-6 mb-4">The basics</h4>
+								<p className="md:text-base text-sm mb-5">
+									Counselling is a form of therapy that is done through talking.
+									This can be different from talking to friends or family where
+									you may struggle to be truly heard, or someone is just waiting
+									for their turn to speak. You may hold back on your true self
+									for fear of being judged or criticised for having views and
+									opinions different from those close to you.
+								</p>
 								<p className="md:text-base text-sm">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quasi, quos dicta? Numquam soluta, debitis ratione totam nulla
-									fugiat! Aliquid architecto exercitationem magni eaque placeat
-									porro libero debitis in repudiandae a.
+									You may be trying to navigate your way through a situation
+									that everyone has an opinion on how to handle it and you just
+									want to find a way that works for you, that feels right for
+									you. Or you may be experiencing a stressful time such as
+									losing your job, divorce or bereavement and don't know who to
+									turn to for support.
 								</p>
 							</div>
 							<div className="">
 								<h4 className="md:text-2xl text-xl lg:mb-6 mb-4">
-									JHSDF sdjflskdjfosdifjasiodf
+									How can it help?
 								</h4>
-								<p className="md:text-base text-sm">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quasi, quos dicta? Numquam soluta, debitis ratione totam nulla
-									fugiat! Aliquid architecto exercitationem magni eaque placeat
-									porro libero debitis in repudiandae a.
+								<p className="md:text-base text-sm mb-5">
+									Counselling offers you the opportunity to discover your true
+									self in a safe environment without fear of being judged. You
+									can explore opinions and feelings to develop how you see the
+									world around, and work your way through those introjected
+									ideas of others to find your authentic self.
 								</p>
-							</div>
-							<div className="">
-								<h4 className="md:text-2xl text-xl lg:mb-6 mb-4">
-									HJHJJJJJJ fjlkas
-								</h4>
 								<p className="md:text-base text-sm">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quasi, quos dicta? Numquam soluta, debitis ratione totam nulla
-									fugiat! Aliquid architecto exercitationem magni eaque placeat
-									porro libero debitis in repudiandae a.
+									We can all put on masks to handle different situations we face
+									to fit in or avoid confrontation at times in our life.
+									Counselling offers you the opportunity to stop hiding behind
+									those masks and have confidence in being you..
 								</p>
 							</div>
 						</div>
@@ -116,7 +122,7 @@ export default function Home() {
 					/>
 					<AboutPerson
 						name="Lorna Sandry"
-						image="Help.png"
+						image="Lorna.png"
 						text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugit
 					eveniet aperiam adipisci repudiandae veritatis eaque natus deserunt
 					totam eius debitis at saepe mollitia dicta accusantium recusandae

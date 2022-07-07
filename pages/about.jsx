@@ -72,7 +72,7 @@ function aboutus() {
 						f2="If you feel you would like to work with me please contact me at the email and telephone number provided in the ‘contact us button’ - this can also be found with the green icon on the top right hand corner of each page."
 					/>
 					<AboutPersonLong
-						image="Help.png"
+						image="Lorna.png"
 						name="Lorna Sandry"
 						title="Qualified Counsellor and Psychotherapist"
 						b1="I feel privileged to work with individuals helping them make sense of their world. I pride myself on my ability to listen, and truly enjoy my role working with people on their journey of self-discovery. If you are experiencing distressing or unpleasant thoughts I am here to help."
