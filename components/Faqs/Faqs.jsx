@@ -18,7 +18,7 @@ function Faqs() {
 					</a>
 				</Link>
 			</div>
-			<div className="space-y-6 flex-3 flex-initial">
+			<div className="space-y-2 flex-3 flex-initial">
 				<IndivQ
 					question="How long is each session and how many will I need ?"
 					answer="Sessions are 50 mins and we aim for them to be at the same time each week. 

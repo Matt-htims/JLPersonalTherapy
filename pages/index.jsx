@@ -114,7 +114,7 @@ export default function Home() {
 				<div className="space-y-20 pb-16">
 					<AboutPerson
 						name="Jennifer Schaub"
-						image="Help.png"
+						image="Jen.png"
 						text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugit
 					eveniet aperiam adipisci repudiandae veritatis eaque natus deserunt
 					totam eius debitis at saepe mollitia dicta accusantium recusandae
