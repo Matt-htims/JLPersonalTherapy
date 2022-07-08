@@ -8,11 +8,11 @@ function agreements() {
 	return (
 		<>
 			<Head>
-				<title>Agreements</title>
+				<title>Privacy policy</title>
 			</Head>
 			<div className="min-h-screen my-16 max-w-7xl m-auto md:px-8 px-5">
 				<h2 className="md:text-5xl text-3xl text-center md:mb-14 mb-8">
-					Agreements
+					Our privacy policy
 				</h2>
 				<div className="space-y-6">
 					<TextBlock

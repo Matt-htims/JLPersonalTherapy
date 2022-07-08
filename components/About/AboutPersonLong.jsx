@@ -16,7 +16,7 @@ const AboutPersonLong = ({
 		<div className="lg:flex lg:space-x-12 lg:space-y-0 space-y-8 items-start  rounded-2xl overflow-hidden shadow">
 			<div className="space-y-10">
 				<div className="lg:flex lg:space-x-8 lg:space-y-0 space-y-8 bg-back-dark md:p-8 px-4 py-8">
-					<div className="lg:w-36 lg:h-36 md:w-44 md:h-44 w-36 h-36 rounded-full lg:m-0 m-auto overflow-hidden flex justify-center items-center flex-none">
+					<div className="w-36 h-36 rounded-full lg:m-0 m-auto overflow-hidden flex justify-center items-center flex-none">
 						<img src={image} alt={name} />
 					</div>
 					<div className="flex lg:flex-row w-full lg:text-left text-center flex-col lg:space-y-0 space-y-6 justify-between items-center">

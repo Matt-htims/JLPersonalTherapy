@@ -21,7 +21,7 @@ export default function Home() {
 							</p>
 							<p className=" md:text-xl text-base font-light">
 								We can offer you our services from qualified counsellors in the
-								comfort of your home starting from{' '}
+								comfort of your home, starting from{' '}
 								<strong>£40 a session</strong>
 							</p>
 						</div>
@@ -120,18 +120,55 @@ export default function Home() {
 					<AboutPerson
 						name="Jennifer Schaub"
 						image="Jen.png"
-						text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugit
-					eveniet aperiam adipisci repudiandae veritatis eaque natus deserunt
-					totam eius debitis at saepe mollitia dicta accusantium recusandae
-					ducimus voluptates a."
+						text={
+							<>
+								<p>
+									In the years before my training I have adopted many caregiving
+									roles, including carer and learning support assistant. To me,
+									community is everything and I do as much as possible to
+									support my own (between being a mum and work). I currently
+									volunteer with We Are With You (formally known as Addaction),
+									True Butterflies and West Country Association for Counselling.
+								</p>
+								<p>
+									I understand that counselling is a personal experience that
+									needs to be tailored to my client. I feel the autonomy of the
+									client should be respected at all times, as they are the most
+									qualified person to know what they want from the counselling
+									experience. I use my expertise to guide clients through a
+									journey of exploration to know themselves better and achieve
+									their desired goals. I work in the modality of person centred/
+									humanistic approach, although I draw upon other modalities
+									depending on what is appropriate for each client.
+								</p>
+							</>
+						}
 					/>
 					<AboutPerson
 						name="Lorna Sandry"
 						image="Lorna.png"
-						text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugit
-					eveniet aperiam adipisci repudiandae veritatis eaque natus deserunt
-					totam eius debitis at saepe mollitia dicta accusantium recusandae
-					ducimus voluptates a."
+						text={
+							<>
+								<p>
+									I feel privileged to work with individuals helping them make
+									sense of their world. I pride myself on my ability to listen,
+									and truly enjoy my role working with people on their journey
+									of self-discovery. If you are experiencing distressing or
+									unpleasant thoughts I am here to help.
+								</p>
+								<p>
+									The sentiment ‘emotional well-being is just as important as
+									breathing’ resonates with how I practice during sessions.
+									Understanding oneself is helpful in coping with life’s daily
+									disappointments and struggles, along with the highs. My role
+									is helping you to re-discover your true self. Psychologist
+									Abraham Maslow once said ‘In any given moment, we have two
+									options: to step forward into growth or step back into
+									safety’. I want to help you to empower yourself and become who
+									you truly are.
+								</p>
+							</>
+						}
 					/>
 				</div>
 				<div className="flex justify-center">

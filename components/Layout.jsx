@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
 			<Navbar
 				brand={
 					<h1>
-						J&amp;L Personal Therapy
+						J&amp;L Therapy
 						<span className="hidden">Counselling Cornwall, Newquay</span>
 					</h1>
 				}
