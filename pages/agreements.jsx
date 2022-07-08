@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 
 // Components
-import Dropdown from '../components/Dropdown';
 import TextBlock from '../components/Agreements/TextBlock';
 
 function agreements() {
@@ -15,7 +14,7 @@ function agreements() {
 				<h2 className="md:text-5xl text-3xl text-center md:mb-14 mb-8">
 					Agreements
 				</h2>
-				<div>
+				<div className="space-y-6">
 					<TextBlock
 						title="Emails"
 						content={

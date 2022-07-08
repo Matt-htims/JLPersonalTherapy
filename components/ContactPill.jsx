@@ -1,12 +1,12 @@
 import Link from 'next/link';
-
 import { motion, AnimatePresence } from 'framer-motion';
-
 import { useState } from 'react';
-
 import { FiPhone, FiMail, FiFacebook } from 'react-icons/fi';
 
+import info from '../helperData/info';
+
 function ContactPill() {
+	const { jen, lorna } = info;
 	const [hover, setHover] = useState(false);
 	return (
 		<div
@@ -24,33 +24,26 @@ function ContactPill() {
 						className="py-1 px-2 space-y-1 text-sm transition-all bg-back border border-r-0 border-black/10 rounded-l-2xl z-10"
 					>
 						<div className="flex space-y-1 flex-col items-end">
-							<Link href="tel:07710447929">
+							<Link href={`tel:${jen.number}`}>
 								<a className="hover:text-ctaGreen">
-									<p>07710447929</p>
+									<p>{jen.number}</p>
 								</a>
 							</Link>
-							<Link href="tel:07710447929">
+							<Link href={`tel:${lorna.number}`}>
 								<a className="hover:text-ctaGreen">
-									<p>07710447929</p>
+									<p>{lorna.number}</p>
 								</a>
 							</Link>
 						</div>
 						<div className="flex flex-col space-y-1 py-1 items-end">
-							<Link href="mailto:jen@jlpersonaltherpay.com">
+							<Link href={`mailto:${jen.email}`}>
 								<a className="hover:text-ctaGreen">
-									<p>jen@jlpersonaltherapy.com</p>
+									<p>{jen.email}</p>
 								</a>
 							</Link>
-							<Link href="mailto:lorna@jlpersonaltherpay.com">
+							<Link href={`mailto:${lorna.email}`}>
 								<a className="hover:text-ctaGreen">
-									<p>lorna@jlpersonaltherapy.com</p>
-								</a>
-							</Link>
-						</div>
-						<div className="flex justify-end hover:text-ctaGreen">
-							<Link href="#">
-								<a>
-									<p>JLPersonalTherapy</p>
+									<p>{lorna.email}</p>
 								</a>
 							</Link>
 						</div>
@@ -62,7 +55,7 @@ function ContactPill() {
 			<div
 				className={`${
 					hover ? 'rounded-r-2xl' : 'rounded-full'
-				} bg-textGreen-light space-y-7 p-2 z-20`}
+				} bg-textGreen-light space-y-7 p-2 z-20 py-5`}
 			>
 				<div>
 					<Link href="/contact">
@@ -75,13 +68,6 @@ function ContactPill() {
 					<Link href="/contact">
 						<a className="text-textGreen-lightest">
 							<FiMail size="1.2rem" />
-						</a>
-					</Link>
-				</div>
-				<div>
-					<Link href="/contact">
-						<a className="text-textGreen-lightest">
-							<FiFacebook size="1.2rem" />
 						</a>
 					</Link>
 				</div>

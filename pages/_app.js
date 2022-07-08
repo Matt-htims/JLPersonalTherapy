@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<title>J&L Personal Therapy | Counselling & Psychotherapy</title>
 				<meta
 					name="keywords"
