@@ -128,7 +128,7 @@ export default function Home() {
 									community is everything and I do as much as possible to
 									support my own (between being a mum and work). I currently
 									volunteer with We Are With You (formally known as Addaction),
-									True Butterflies and West Country Association for Counselling.
+									Victims of Crime and West Country Association for Counselling.
 								</p>
 								<p>
 									I understand that counselling is a personal experience that

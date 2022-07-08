@@ -17,7 +17,7 @@ function aboutus() {
 						image="Jen.png"
 						name="Jennifer Schaub"
 						title="Qualified Counsellor and Psychotherapist"
-						b1="In the years before my training I have adopted many caregiving roles, including carer and learning support assistant. To me, community is everything and I do as much as possible to support my own (between being a mum and work). I currently volunteer with We Are With You (formally known as Addaction), True Butterflies and West Country Association for Counselling."
+						b1="In the years before my training I have adopted many caregiving roles, including carer and learning support assistant. To me, community is everything and I do as much as possible to support my own (between being a mum and work). I currently volunteer with We Are With You (formally known as Addaction), Victims of Crime and West Country Association for Counselling."
 						b2={
 							<>
 								I understand that counselling is a personal experience that
