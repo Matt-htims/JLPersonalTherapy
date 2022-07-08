@@ -55,7 +55,7 @@ function ContactPill() {
 			<div
 				className={`${
 					hover ? 'rounded-r-2xl' : 'rounded-full'
-				} bg-textGreen-light space-y-7 p-2 z-20 py-5`}
+				} bg-textGreen-light space-y-8 p-2 z-20 py-5`}
 			>
 				<div>
 					<Link href="/contact">

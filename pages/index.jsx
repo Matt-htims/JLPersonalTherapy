@@ -14,12 +14,17 @@ export default function Home() {
 						<p className="xl:text-6xl md:text-5xl text-3xl font-semibold text-textGreen-dark">
 							Help us help you
 						</p>
-						<p className="xl:text-2xl md:text-xl text-base  font-light">
-							Thinking of embarking on a journey of self discovery, or looking
-							for some support ? Wanting a safe space to explore aspects of
-							yourself ? We can offer you our services from qualified
-							counsellors in the comfort of your home.
-						</p>
+						<div className="space-y-2">
+							<p className="md:text-xl text-base font-light">
+								Thinking of embarking on a journey of self discovery, or looking
+								for some support?
+							</p>
+							<p className=" md:text-xl text-base font-light">
+								We can offer you our services from qualified counsellors in the
+								comfort of your home starting from{' '}
+								<strong>£40 a session</strong>
+							</p>
+						</div>
 						<div className="flex justify-center pb-6">
 							<Button text="Contact Us" link="/contact" cta={true} />
 						</div>
