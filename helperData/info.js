@@ -1,12 +1,12 @@
 const info = {
 	jen: {
 		name: 'Jennifer Schaub',
-		number: '09930113800',
+		number: '07901556914',
 		email: 'jennifer@jltherapy.uk',
 	},
 	lorna: {
 		name: 'Lorna Sandry',
-		number: '09984993900',
+		number: '07534810453',
 		email: 'lorna@jltherapy.uk',
 	},
 };
