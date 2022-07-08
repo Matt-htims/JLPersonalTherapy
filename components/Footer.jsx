@@ -7,24 +7,17 @@ function Footer() {
 	return (
 		<div className="h-60 bg-black/30 flex flex-col justify-center items-center space-y-6">
 			<div className="flex space-x-4">
-				<Link href="#">
+				<Link href="/contact">
 					<a>
 						<div className="bg-back hover:bg-textGreen-light hover:text-back p-2 rounded-full w-max">
 							<FiPhone className="" size="1.5rem" />
 						</div>
 					</a>
 				</Link>
-				<Link href="#">
+				<Link href="/contact">
 					<a>
 						<div className="bg-back hover:bg-textGreen-light hover:text-back p-2 rounded-full w-max">
 							<FiMail className="" size="1.5rem" />
-						</div>
-					</a>
-				</Link>
-				<Link href="#">
-					<a>
-						<div className="bg-back hover:bg-textGreen-light hover:text-back p-2 rounded-full w-max">
-							<FiFacebook className="" size="1.5rem" />
 						</div>
 					</a>
 				</Link>
