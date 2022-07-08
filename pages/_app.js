@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
 					name="description"
 					content="Personal therapy based in Newquay, Cornwall. Online counselling with experienced psychotherapists Jen Schaub and Lorna Sandry."
 				/>
-				<meta property="og:image" content="https://www.5gallon.dev/Help.png" />
+				<meta property="og:image" content="https://www.jltherapy.uk/Help.png" />
 				<meta property="og:url" content="https://www.jltherapy.uk" />
 				<meta
 					property="og:title"
