@@ -31,7 +31,7 @@ export default function Home() {
 					</div>
 					<img
 						className="lg:w-6/12 lg:absolute lg:right-8 rounded-3xl max-h-128 lg:m-0 m-auto drop-shadow"
-						src="Help.png"
+						src="Hands.png"
 						alt="Person holding up another persons hand"
 					/>
 				</div>
