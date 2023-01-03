@@ -115,7 +115,7 @@ export default function Home() {
 			</div>
 			{/* About us section */}
 			<div className="max-w-7xl m-auto md:px-8 px-5 mt-16 mb-10">
-				<h2 className="text-center md:text-4xl text-3xl mb-10">About Us</h2>
+				<h2 className="text-center md:text-4xl text-3xl mb-10">About</h2>
 				<div className="space-y-20 pb-16">
 					<AboutPerson
 						name="Jennifer Schaub"
@@ -144,35 +144,9 @@ export default function Home() {
 							</>
 						}
 					/>
-					<AboutPerson
-						name="Lorna Sandry"
-						image="Lorna.png"
-						text={
-							<>
-								<p>
-									I feel privileged to work with individuals helping them make
-									sense of their world. I pride myself on my ability to listen,
-									and truly enjoy my role working with people on their journey
-									of self-discovery. If you are experiencing distressing or
-									unpleasant thoughts I am here to help.
-								</p>
-								<p>
-									The sentiment ‘emotional well-being is just as important as
-									breathing’ resonates with how I practice during sessions.
-									Understanding oneself is helpful in coping with life’s daily
-									disappointments and struggles, along with the highs. My role
-									is helping you to re-discover your true self. Psychologist
-									Abraham Maslow once said ‘In any given moment, we have two
-									options: to step forward into growth or step back into
-									safety’. I want to help you to empower yourself and become who
-									you truly are.
-								</p>
-							</>
-						}
-					/>
 				</div>
 				<div className="flex justify-center">
-					<Button text="More About us" link="/about" />
+					<Button text="More about me" link="/about" />
 				</div>
 			</div>
 			{/* FAQs */}

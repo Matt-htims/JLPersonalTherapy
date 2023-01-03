@@ -6,7 +6,7 @@ import { FiPhone, FiMail, FiFacebook } from 'react-icons/fi';
 import info from '../helperData/info';
 
 function ContactPill() {
-	const { jen, lorna } = info;
+	const { jen } = info;
 	const [hover, setHover] = useState(false);
 	return (
 		<div
@@ -21,7 +21,7 @@ function ContactPill() {
 						animate={{ x: 0 }}
 						exit={{ x: 200 }}
 						transition={{ ease: 'backInOut', duration: '0.1' }}
-						className="py-1 px-2 space-y-1 text-sm transition-all bg-back border border-r-0 border-black/10 rounded-l-2xl z-10"
+						className="py-3 px-2 space-y-3 text-sm transition-all bg-back border border-r-0 border-black/10 rounded-l-2xl z-10"
 					>
 						<div className="flex space-y-1 flex-col items-end">
 							<Link href={`tel:${jen.number}`}>
@@ -29,21 +29,11 @@ function ContactPill() {
 									<p>{jen.number}</p>
 								</a>
 							</Link>
-							<Link href={`tel:${lorna.number}`}>
-								<a className="hover:text-ctaGreen">
-									<p>{lorna.number}</p>
-								</a>
-							</Link>
 						</div>
 						<div className="flex flex-col space-y-1 py-1 items-end">
 							<Link href={`mailto:${jen.email}`}>
 								<a className="hover:text-ctaGreen">
 									<p>{jen.email}</p>
-								</a>
-							</Link>
-							<Link href={`mailto:${lorna.email}`}>
-								<a className="hover:text-ctaGreen">
-									<p>{lorna.email}</p>
 								</a>
 							</Link>
 						</div>
@@ -55,7 +45,7 @@ function ContactPill() {
 			<div
 				className={`${
 					hover ? 'rounded-r-2xl' : 'rounded-full'
-				} bg-textGreen-light space-y-8 p-2 z-20 py-5`}
+				} bg-textGreen-light space-y-5 p-2 z-20 py-3`}
 			>
 				<div>
 					<Link href="/contact">
