@@ -22,7 +22,7 @@ export default function Home() {
 							<p className=" md:text-xl text-base font-light">
 								We can offer you our services from qualified counsellors in the
 								comfort of your home, starting from{' '}
-								<strong>£40 a session</strong>
+								<strong>£50 a session</strong>
 							</p>
 						</div>
 						<div className="flex justify-center pb-6">
@@ -59,13 +59,15 @@ export default function Home() {
 			{/* What is Counselling? */}
 			<div className="bg-back-dark md:mt-20 mt:10 pb-10">
 				<div className="max-w-7xl m-auto md:px-8 px-5 pt-5">
-					<h2 className="text-center md:text-4xl text-2xl my-10 lg:mb-16 mb-10">
+					<h2 className="text-center md:text-4xl text-3xl my-10 lg:mb-16 mb-10">
 						What is Counselling?
 					</h2>
 					<div className="flex lg:flex-row flex-col-reverse">
 						<div className="text flex flex-col justify-around lg:mr-14 space-y-8 text-justify">
 							<div className="">
-								<h4 className="md:text-2xl text-xl lg:mb-6 mb-4">The basics</h4>
+								<h4 className="md:text-3xl text-2xl lg:mb-6 mb-4">
+									The Basics
+								</h4>
 								<p className="md:text-base text-sm mb-5">
 									Counselling is a form of therapy that is done through talking.
 									This can be different from talking to friends or family where
@@ -84,8 +86,8 @@ export default function Home() {
 								</p>
 							</div>
 							<div className="">
-								<h4 className="md:text-2xl text-xl lg:mb-6 mb-4">
-									How can it help?
+								<h4 className="md:text-3xl text-2xl lg:mb-6 mb-4">
+									How Counselling Can Help
 								</h4>
 								<p className="md:text-base text-sm mb-5">
 									Counselling offers you the opportunity to discover your true

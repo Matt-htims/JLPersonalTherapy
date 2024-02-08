@@ -56,7 +56,7 @@ function faqs() {
 						q="How do I pay for sessions and what happens if I want to cancel?"
 						a={
 							<p>
-								Sessions are £40 for individual therapy and they can be paid for
+								Sessions are £50 for individual therapy and they can be paid for
 								via bank transfer. You will receive the information for this in
 								your contract and will be discussed in the consultation.
 								<br /> We require payments 48 hours before the session and if

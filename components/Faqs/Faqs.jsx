@@ -40,7 +40,7 @@ function Faqs() {
 				/>
 				<IndivQ
 					question="How do I pay for sessions and what happens if I want to cancel?"
-					answer="Sessions are £40 for individual therapy and they can be paid for via bank transfer. You will receive the information for this in your contract and will be discussed in the consultation. 
+					answer="Sessions are £50 for individual therapy and they can be paid for via bank transfer. You will receive the information for this in your contract and will be discussed in the consultation. 
 					We require payments  48 hours before the session and if you feel you need to cancel for any reason this can be done 24 hours before a session. Any later then unfortunately we can not give a refund. 
 					"
 				/>

@@ -20,8 +20,8 @@ function Navbar({ brand, items }) {
 	});
 
 	useEffect(() => {
-		const handleRouteChange = url => {
-			const newActiveIndex = items.findIndex(item => item.url === url);
+		const handleRouteChange = (url) => {
+			const newActiveIndex = items.findIndex((item) => item.url === url);
 
 			setActiveIndex(newActiveIndex);
 		};
@@ -85,42 +85,64 @@ function Navbar({ brand, items }) {
 					</div>
 				</div>
 			</nav>
-			<div
-				onClick={closeTray}
-				className={`w-screen h-screen bg-black bg-opacity-50 flex justify-center absolute lg:hidden z-30 overflow-hidden ${
-					!active ? 'hidden' : ''
-				}`}
-			>
-				{active ? (
+			<AnimatePresence>
+				{active && (
 					<motion.div
-						initial={{ y: -400 }}
-						animate={{ y: 0 }}
-						exit={{ x: -500 }}
+						onClick={closeTray}
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						exit={{ opacity: 0 }}
 						transition={{ ease: 'easeOut' }}
-						className="relative w-96 top-4 h-52 flex flex-col items-center rounded-lg bg-back mx-4 z-10"
+						className={`w-screen h-screen bg-black bg-opacity-50 flex justify-center absolute lg:hidden z-30 overflow-hidden`}
 					>
-						{items.map((item, index) => (
-							<Link
-								href={item.url}
-								active={activeIndex === index ? 'active' : undefined}
-								key={item.id}
-								className="items"
-							>
-								<a
-									onClick={closeTray}
-									className="text-base px-5 py-2 w-full text-center hover:bg-back-dark transition-all rounded-xl "
+						<motion.div
+							variants={animateModal}
+							initial="initial"
+							animate="animate"
+							exit="exit"
+							className="relative w-96 top-4 h-52 flex flex-col items-center rounded-lg bg-back mx-4 z-10"
+						>
+							{items.map((item, index) => (
+								<Link
+									href={item.url}
+									active={activeIndex === index ? 'active' : undefined}
+									key={item.id}
+									className="items"
 								>
-									{item.title}
-								</a>
-							</Link>
-						))}
+									<a
+										onClick={closeTray}
+										className="text-base px-5 py-2 w-full text-center hover:bg-back-dark transition-all rounded-xl "
+									>
+										{item.title}
+									</a>
+								</Link>
+							))}
+						</motion.div>
 					</motion.div>
-				) : (
-					''
 				)}
-			</div>
+			</AnimatePresence>
 		</div>
 	);
 }
 
 export default Navbar;
+
+const animateModal = {
+	initial: {
+		y: -400,
+	},
+	animate: {
+		y: 0,
+		transition: {
+			duration: 0.4,
+			ease: 'easeOut',
+		},
+	},
+	exit: {
+		y: -400,
+		transition: {
+			duration: 0.4,
+			ease: 'easeOut',
+		},
+	},
+};
